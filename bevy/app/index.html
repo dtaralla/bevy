@@ -16,7 +16,8 @@
 start of the next tick of the schedule.</p>
 </div></div><div class="item-row"><div class="item-left module-item"><a class="struct" href="struct.PluginGroupBuilder.html" title="bevy::app::PluginGroupBuilder struct">PluginGroupBuilder</a></div><div class="item-right docblock-short"><p>Facilitates the creation and configuration of a <a href="trait.PluginGroup.html" title="PluginGroup"><code>PluginGroup</code></a>.
 Provides a build ordering to ensure that <a href="trait.Plugin.html" title="Plugin"><code>Plugin</code></a>s which produce/require a <a href="bevy_ecs::system::Resource"><code>Resource</code></a>
-are built before/after dependent/depending <a href="trait.Plugin.html" title="Plugin"><code>Plugin</code></a>s.</p>
+are built before/after dependent/depending <a href="trait.Plugin.html" title="Plugin"><code>Plugin</code></a>s. <a href="trait.Plugin.html" title="Plugin"><code>Plugin</code></a>s inside the group
+can be disabled, enabled or reordered.</p>
 </div></div><div class="item-row"><div class="item-left module-item"><a class="struct" href="struct.ScheduleRunnerPlugin.html" title="bevy::app::ScheduleRunnerPlugin struct">ScheduleRunnerPlugin</a></div><div class="item-right docblock-short"><p>Configures an <a href="struct.App.html" title="App"><code>App</code></a> to run its <a href="bevy_ecs::schedule::Schedule"><code>Schedule</code></a> according to a given
 <a href="enum.RunMode.html" title="RunMode"><code>RunMode</code></a>.</p>
 </div></div><div class="item-row"><div class="item-left module-item"><a class="struct" href="struct.ScheduleRunnerSettings.html" title="bevy::app::ScheduleRunnerSettings struct">ScheduleRunnerSettings</a></div><div class="item-right docblock-short"><p>The configuration information for the <a href="struct.ScheduleRunnerPlugin.html" title="ScheduleRunnerPlugin"><code>ScheduleRunnerPlugin</code></a>.</p>
