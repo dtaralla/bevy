@@ -1,1 +1,1 @@
-initSidebarItems({"trait":[["DynEq",""],["DynHash",""]]});
+initSidebarItems({"macro":[["define_label","Macro to define a new label trait"]],"trait":[["DynEq",""],["DynHash",""]]});
